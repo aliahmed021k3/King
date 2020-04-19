@@ -188,7 +188,7 @@ def login():
 		jalan(' \033[1;31m༻ \033[1;93mWarning: \033[1;31mDONOT USE YOUR PERSONAL ACCOUNT' ) 
 		
 		
-		print('      \033[1;97m--->x1b[1;94m•••LOGIN WITH FACEBOOK•••\x1b[1;97m<----')
+		print('      \033[1;97m--->\x1b[1;94m•••LOGIN WITH FACEBOOK•••\x1b[1;97m<----')
 		print('	' )
 		id = raw_input('\033[1;96m[] \x1b[1;94mID/Email\x1b[1;32m: \x1b[1;32m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;94mPassword\x1b[1;32m: \x1b[1;32m')
