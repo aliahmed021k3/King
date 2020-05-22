@@ -46,22 +46,22 @@ def jalan(z):
 ##### INTRO #####
 logo ="""
 
-\x1b[1;91m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
-\x1b[1;91m████╗░████║██║██╔════╝██║░░██║██║
-\x1b[1;91m██╔████╔██║██║╚█████╗░███████║██║
-\x1b[1;91m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
-\x1b[1;91m██║░╚═╝░██║██║██████╔╝██║░░██║██║
-\x1b[1;91m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
---------------------------------------------------- 
-➣  Coded By : JAM SHAHRUKH
-➣  Facebook : JAM SHAHRUKH TECHNICAL
-➣  Note     : Dont ReEdit It 
-➣  Github   : https://github.com/JAM-x-MISHI
-➣  Whatsapp : +971528752764
-➣  Note     : Having Problem? Contact Me On YouTube Or Whatsapp.
-➣  Disclamiar : This Is For Educational Purpose Only 
+\x1b[1;92m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
+\x1b[1;92m████╗░████║██║██╔════╝██║░░██║██║
+\x1b[1;92m██╔████╔██║██║╚█████╗░███████║██║
+\x1b[1;92m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
+\x1b[1;92m██║░╚═╝░██║██║██████╔╝██║░░██║██║
+\x1b[1;92m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
+\x1b[0;39m--------------------------------------------------- 
+\x1b[1;91m➣  Coded By : JAM SHAHRUKH
+\x1b[1;91m➣  YouTube : JAM SHAHRUKH TECHNICAL
+\x1b[1;91m➣  Note     : Dont ReEdit It 
+\x1b[1;91m➣  Github   : https://github.com/JAM-x-MISHI
+\x1b[1;91m➣  Whatsapp : +971528752764
+\x1b[1;91m➣  Note     : Having Problem? Contact Me On Whatsapp.
+\x1b[1;91m➣  Disclamiar : This Is For Educational Purpose Only 
 Iam Not Responsible For Any Illegal Use Or Activity.
----------------------------------------------------"""
+\x1b[0;39m---------------------------------------------------"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -360,7 +360,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
