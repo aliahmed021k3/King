@@ -58,7 +58,7 @@ logo ="""
 ➣  Note     : Dont ReEdit It 
 ➣  Github   : https://github.com/JAM-x-MISHI
 ➣  Whatsapp : +971528752764
-➣  Note     : Having Problem? Contact Me On Facebook Or Whatsapp.
+➣  Note     : Having Problem? Contact Me On YouTube Or Whatsapp.
 ➣  Disclamiar : This Is For Educational Purpose Only 
 Iam Not Responsible For Any Illegal Use Or Activity.
 ---------------------------------------------------"""
