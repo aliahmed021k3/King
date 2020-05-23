@@ -64,7 +64,7 @@ logo ="""
 \x1b[1;92m█▒▒▄▀▄▀▄▀▄▀▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒██████████▒▒▄▀▒▒█
 \x1b[1;92m█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒█▒▒▒▒▒▒██████████▒▒▒▒▒▒█
 \x1b[1;91m██████████████████████████████████████████████████████
-\x1b[1;97m--------------------------------------------------------
+\x1b[1;97m--------------------------------------------------------------
 \x1b[1;94m➣  YouTube  : JAM SHAHRUKH TECHNICAL
 \x1b[1;94m➣  Facebook : JAM SHAHRUKH
 \x1b[1;94m➣  Note     : Dont ReEdit It 
@@ -73,7 +73,7 @@ logo ="""
 \x1b[1;94m➣  Note     : Having Problem? Contact Me On Facebook Or Whatsapp.
 \x1b[1;94m➣  Disclamiar : This Is For Educational Purpose Only. 
 \x1b[1;94m➣  Disclamiar : Iam Not Responsible For Any Illegal Use Or Activity.
-\x1b[1;97m--------------------------------------------------------"""
+\x1b[1;97m--------------------------------------------------------------"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -201,7 +201,7 @@ def menu():
 	print "	   \033[1;97m Name\033[1;97m:\033[1;97m"+nama+"\033[1;97m               "
 	print "	   \033[1;97m ID\033[1;97m:\033[1;97m"+id+"\x1b[1;97m              "
 	
-	print "\033[1;97m---------------------------------------------------"
+	print "\033[1;97m---------------------------------------------------------"
 		
 	print "\033[1;97m✧\033[1;97m.\033[1;97m1.\x1b[1;97m Start Cloning..."
       
@@ -291,7 +291,7 @@ def pilih_super():
         print"""
 [!] To Stop Process Press CTRL Then Z
 
----------------------------------------------------"""		
+---------------------------------------------------------"""		
 			
 	def main(arg):
 		global cekpoint,oks
@@ -299,7 +299,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:hamza
+			pass #Dev:Jam
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
