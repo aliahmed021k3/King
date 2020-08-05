@@ -3,7 +3,7 @@
 #Codded By Jam Shahrukh
 #Editing My Script Will Not Make You A Coder
 #Facebook : JAM Shahrukh
-#Whatsapp : ++971528752764
+#Whatsapp : +923072129176
 #Pakistan Cyber Expert
 #Alone Coder 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -58,11 +58,12 @@ logo ="""
 \x1b[1;96m╚█████╔╝██║░░██║██║░╚═╝░██║
 \x1b[1;96m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
 \x1b[1;97m--------------------------------------------------------------
-\x1b[1;94m➣  YouTube  : JAM SHAHRUKH TECHNICAL
-\x1b[1;94m➣  Facebook : JAM SHAHRUKH
+\x1b[1;94m➣  YouTube  : none
+\x1b[1;94m➣  Facebook : none
 \x1b[1;94m➣  Note     : Dont ReEdit It 
-\x1b[1;94m➣  Github   : https://github.com/Jam302/King
-\x1b[1;94m➣  Whatsapp : +971528752764
+\x1b[1;94m➣  Github   : https://github.com/aliahmed021k3
+/King
+\x1b[1;94m➣  Whatsapp : +923072129176
 \x1b[1;94m➣  Note     : Having Problem? Contact Me On Whatsapp.
 \x1b[1;94m➣  Disclamiar : This Is For Educational Purpose Only.
 \x1b[1;97m--------------------------------------------------------------"""
@@ -83,8 +84,8 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print logo
 
-CorrectUsername = "jam"
-CorrectPassword = "jam"
+CorrectUsername = "aliahmed021k3"
+CorrectPassword = "AHMED123AHMED"
 
 loop = 'true'
 while (loop == 'true'):
